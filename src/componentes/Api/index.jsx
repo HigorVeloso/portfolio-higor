@@ -70,4 +70,5 @@ const Api = () => {
     return { times, inicial, Conteudo };
 };
 
+
 export default Api;
