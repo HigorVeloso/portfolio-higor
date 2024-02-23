@@ -54,20 +54,42 @@ const Api = () => {
         }
     ]
 
-    const Conteudo = [
+    const conteudo = [
         {
-            Tecnologia: '',
-            imagem: '',
-
+            imagem: './imagens/assets/react-40.png',
+            titulo: 'React'
         },
         {
-            Tecnologia: '',
-            imagem: '',
-
+            imagem: './imagens/assets/javascript-48.png',
+            titulo: 'JavaScript'
         },
+        {
+            imagem: './imagens/assets/mysql-48.png',
+            titulo: 'MySQL'
+        },
+        {
+            imagem: './imagens/assets/python-48.png',
+            titulo: 'Python'
+        },
+        {
+            imagem: './imagens/assets/html5-48.png',
+            titulo: 'HTML5'
+        },  
+        {
+            imagem: './imagens/assets/CSS3-48.png',
+            titulo: 'CSS3'
+        },  
+        {
+            imagem: './imagens/assets/nodejs-48.png',
+            titulo: 'Node.js'
+        },  
+        {
+            imagem: './imagens/assets/powerbi-48.png',
+            titulo: 'PowerBI'
+        },  
     ]
 
-    return { times, inicial, Conteudo };
+    return { times, inicial, conteudo };
 };
 
 
