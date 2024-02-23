@@ -76,7 +76,7 @@ const Api = () => {
             titulo: 'HTML5'
         },  
         {
-            imagem: './imagens/assets/CSS3-48.png',
+            imagem: './imagens/assets/css3-48.png',
             titulo: 'CSS3'
         },  
         {
