@@ -23,7 +23,7 @@ const Corpo = () => {
             });
     };
 
-    const { conteudo } = Api();
+    const { hardSkills, softSkills } = Api();
 
     return (
         <section className='w-full h-full pb-10 px-5' style={{ backgroundImage: 'url(/imagens/fundo.png)', backgroundColor: '#f1f5f9' }}>
@@ -31,15 +31,26 @@ const Corpo = () => {
                 <button className='flex items-center font-bold font-mono caption-bottom text-white bg-green-700 p-4 rounded-2xl cursor-pointer hover:bg-green-600 hover:ring duration-300 h-1 '
                     onClick={downloadPDF} type="button">Baixar Currículo</button>
             </div>
-            <h2 className="flex text-lg font-mono font-bold justify-center pt-1 border-2 sm:text-2xl text-gray-800">Tecnologias do dia a dia</h2>
-            <div className='flex font-mono items-center justify-center pt-8 gap-4 flex-wrap mx-3'>
-                {conteudo.map((conteudo, index) => (
-                    <div key={index} className='flex flex-col gap-0.5 items-center justify-center ' >
-                        <img className='w-12' src={conteudo.imagem} alt="" />
-                        <p className='text-gray-800'>{conteudo.titulo}</p>
-                    </div> 
+
+
+            <div className='sm:grid sm:justify-center sm:grid-cols-3 sm:max-w-screen-md mx-auto px-1'>
+                <h1 className="flex text-lg font-mono font-bold justify-center pt-1 border-2 sm:text-2xl sm:col-span-3 text-gray-800">SOFT SKILLS</h1>
+                {softSkills.map((softSkills, index) => (
+                    <div key={index} className='flex flex-col font-mono items-center justify-center pt-8 gap-y-4 flex-wrap mx-2'>
+                        <p className='text-gray-800'>{softSkills.titulo}</p>
+                    </div>
                 ))}
-                
+            </div>
+
+            <div className='grid justify-center items-center grid-cols-4 sm:max-w-screen-md mx-auto px-1'>
+                <h2 className="flex text-lg font-mono font-bold pt-8 justify-center border-2 sm:text-2xl col-span-4 text-gray-800">HARD SKILLS</h2>
+                {hardSkills.map((hardSkills, index) => (
+                    <div key={index} className='group flex flex-col font-mono items-center justify-center pt-8 gap-y-2 flex-wrap mx-0.5' >
+                        <img className='w-12 group-hover:animate-sino' src={hardSkills.imagem} alt="" />
+                        <p className='text-gray-800'>{hardSkills.titulo}</p>
+                    </div>
+                ))}
+
             </div>
         </section>
     )

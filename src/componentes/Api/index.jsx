@@ -17,71 +17,78 @@ const Api = () => {
     const inicial = [
 
         {
-            nome: 'Projeto 1',
-            cargo: 'Tecnologias usadas',
+            nome: 'Interface de uma clínica',
+            cargo: 'HTML, CSS e SwiperJS',
             imagem: './imagens/veterinaria.png',
+            url: 'https://medicina-veterinaria.vercel.app/',
             time: times[0].nome
         },
         {
             nome: 'Projeto 1',
             cargo: 'Tecnologias usadas',
-            imagem: './imagens/veterinaria.png',
+            imagem: '',
+            url: '',
             time: times[0].nome
         },
         {
             nome: 'Projeto 1',
             cargo: 'Tecnologias usadas',
-            imagem: './imagens/veterinaria.png',
+            imagem: '',
+            url: '',
             time: times[0].nome
         },
         {
             nome: 'Sub projeto',
             cargo: 'Tecnologias usadas',
             imagem: '',
+            url: '',
             time: times[1].nome
         },
         {
             nome: 'Sub projeto',
             cargo: 'Tecnologias usadas',
             imagem: '',
+            url: '',
             time: times[1].nome
         },
         {
             nome: 'Sub projeto',
             cargo: 'Tecnologias usadas',
             imagem: '',
+            url: '',
             time: times[1].nome
         }
     ]
 
-    const conteudo = [
+    const hardSkills = [
         {
             imagem: './imagens/assets/react-40.png',
             titulo: 'React'
         },
         {
-            imagem: './imagens/assets/javascript-48.png',
-            titulo: 'JavaScript'
-        },
-        {
-            imagem: './imagens/assets/mysql-48.png',
-            titulo: 'MySQL'
+            imagem: './imagens/assets/html5-48.png',
+            titulo: 'HTML5'
         },
         {
             imagem: './imagens/assets/python-48.png',
             titulo: 'Python'
+            
         },
         {
-            imagem: './imagens/assets/html5-48.png',
-            titulo: 'HTML5'
+            imagem: './imagens/assets/nodejs-48.png',
+            titulo: 'Node.js'
+        },
+        {
+            imagem: './imagens/assets/javascript-48.png',
+            titulo: 'JavaScript'
         },  
         {
             imagem: './imagens/assets/css3-48.png',
             titulo: 'CSS3'
         },  
         {
-            imagem: './imagens/assets/nodejs-48.png',
-            titulo: 'Node.js'
+            imagem: './imagens/assets/mysql-48.png',
+            titulo: 'MySQL'
         },  
         {
             imagem: './imagens/assets/powerbi-48.png',
@@ -89,7 +96,28 @@ const Api = () => {
         },  
     ]
 
-    return { times, inicial, conteudo };
+    const softSkills = [
+        {
+            titulo: 'Comunicação eficaz'
+        },
+        {
+            titulo: 'Proatividade'
+        },
+        {
+            titulo: 'Perfil de liderança'
+        },
+        {
+            titulo: 'Pensamento crítico'
+        },
+        {
+            titulo: 'Compreensível'
+        },
+        {
+            titulo: 'Bom humor'
+        }
+    ]
+
+    return { times, inicial, hardSkills, softSkills };
 };
 
 
