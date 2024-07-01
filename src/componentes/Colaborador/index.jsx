@@ -16,6 +16,10 @@ const Colaborador = ({ colaborador, corDeFundo }) => {
             <div className="rodape w-full bg-white rounded-b-lg pb-10">
                 <h4 className='flex justify-center pt-16 text-blue-500 font-bold text-lg leading-6 mb-2'>{colaborador.nome}</h4>
                 <p className='flex justify-center text-base leading-6 text-gray-700 px-4'>{colaborador.cargo}</p>
+                <div className="flex justify-center items-center gap-4 pt-4">
+                    <button className="border-4 p-1">Deploy</button>
+                    <button className="border-4 p-1">GitHub</button>
+                </div>
             </div>
         </span>
     )

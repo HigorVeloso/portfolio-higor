@@ -19,42 +19,42 @@ const Api = () => {
         {
             nome: 'Interface de uma clínica',
             cargo: 'HTML, CSS e SwiperJS',
-            imagem: './imagens/veterinaria.png',
+            imagem: './imagens/construcao.png',
             url: 'https://medicina-veterinaria.vercel.app/',
             time: times[0].nome
         },
         {
             nome: 'Projeto 1',
             cargo: 'Tecnologias usadas',
-            imagem: '',
+            imagem: './imagens/construcao.png',
             url: '',
             time: times[0].nome
         },
         {
             nome: 'Projeto 1',
             cargo: 'Tecnologias usadas',
-            imagem: '',
+            imagem: './imagens/construcao.png',
             url: '',
             time: times[0].nome
         },
         {
             nome: 'Sub projeto',
             cargo: 'Tecnologias usadas',
-            imagem: '',
+            imagem: './imagens/construcao.png',
             url: '',
             time: times[1].nome
         },
         {
             nome: 'Sub projeto',
             cargo: 'Tecnologias usadas',
-            imagem: '',
+            imagem: './imagens/construcao.png',
             url: '',
             time: times[1].nome
         },
         {
             nome: 'Sub projeto',
             cargo: 'Tecnologias usadas',
-            imagem: '',
+            imagem: './imagens/construcao.png',
             url: '',
             time: times[1].nome
         }

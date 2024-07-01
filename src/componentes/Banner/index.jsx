@@ -17,7 +17,7 @@ const Banner = () => {
     };
 
     return (
-        <nav className=' bg-gray-800 sm:flex px-8 pt-4 pb-2'>
+        <nav className=' bg-gray-800 sm:flex px-8 pt-4 pb-2 sm:px-24 lg:px-44 xl:px-48 2xl:px-96'>
             <div className="grid grid-cols-3 w-full h-full my-5 px-2 sm:px-3 lg:px-8 relative sm:flex sm:items-center sm:justify-between">
                 <p className='group sm:flex col-span-3 justify-self-center'>
                     <button onClick={handleLogin}><img className='w-20 h-20 rounded-full hover:ring group-hover:animate-sino' src="https://github.com/HigorVeloso.png" alt="minha foto" /></button>

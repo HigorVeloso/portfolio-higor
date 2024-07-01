@@ -27,7 +27,7 @@ const Corpo = () => {
 
     return (
         <section className='w-full h-full pb-10 px-5' style={{ backgroundImage: 'url(/imagens/fundo.png)', backgroundColor: '#f1f5f9' }}>
-            <div className='flex py-4'>
+            <div className='flex py-4 sm:px-24 lg:px-44 xl:px-48 2xl:px-96'>
                 <button className='flex items-center font-bold font-mono caption-bottom text-white bg-green-700 p-4 rounded-2xl cursor-pointer hover:bg-green-600 hover:ring duration-300 h-1 '
                     onClick={downloadPDF} type="button">Baixar Currículo</button>
             </div>
